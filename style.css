@@ -30,9 +30,9 @@ header {
 }
 
 .sobre p {
-  font-size: 1.1rem;   /* aumenta a fonte */
-  text-align: center;  /* centraliza o texto */
-  line-height: 1.8;    /* melhora o espaçamento entre linhas */
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.8;
 }
 
 .navbar {
@@ -128,16 +128,23 @@ h2 {
 /* Projetos */
 .grid-projetos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
+
+.grid-projetos.unico {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   background: #fff;
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 400px;
+  text-align: center;
 }
 .card:hover {
   transform: translateY(-8px) scale(1.02);
@@ -165,7 +172,7 @@ h2 {
   text-decoration: none;
 }
 .contato p {
-    text-align: center;
+  text-align: center;
 }
 .contato a:hover {
   text-decoration: underline;
