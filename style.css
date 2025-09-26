@@ -202,6 +202,10 @@ footer {
   text-align: center;
 }
 
+.card p {
+  text-align: center;
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   .nav-links {
@@ -223,4 +227,5 @@ footer {
     display: block;
   }
 }
+
 
