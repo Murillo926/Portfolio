@@ -198,6 +198,10 @@ footer {
   transform: translateY(0);
 }
 
+.texto-projeto {
+  text-align: center;
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   .nav-links {
@@ -219,3 +223,4 @@ footer {
     display: block;
   }
 }
+
