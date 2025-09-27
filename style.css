@@ -128,13 +128,10 @@ h2 {
 /* Projetos */
 .grid-projetos {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
-}
-
-.grid-projetos.unico {
-  display: flex;
-  justify-content: center;
+  justify-items: center;
 }
 
 .card {
@@ -164,6 +161,9 @@ h2 {
 .card a:hover {
   color: #1e90ff;
   text-decoration: underline;
+}
+.card p {
+  text-align: center;
 }
 
 /* Contato */
@@ -198,14 +198,6 @@ footer {
   transform: translateY(0);
 }
 
-.texto-projeto {
-  text-align: center;
-}
-
-.card p {
-  text-align: center;
-}
-
 /* Responsivo */
 @media (max-width: 768px) {
   .nav-links {
@@ -227,5 +219,3 @@ footer {
     display: block;
   }
 }
-
-
