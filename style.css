@@ -125,6 +125,10 @@ h2 {
   text-align: center;
 }
 
+.grid-projetos p {
+  text-align: center;
+}
+
 /* Projetos */
 .grid-projetos {
   display: grid;
@@ -219,3 +223,4 @@ footer {
     display: block;
   }
 }
+
